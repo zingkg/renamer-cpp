@@ -38,7 +38,7 @@ std::int32_t main(const std::int32_t argc, const char** argv) {
         std::cout << "Basic renamer program" << std::endl;
         std::cout << '\t' << Renamer::RENAME_COMMAND << std::endl;
         std::cout << '\t' << Renamer::WIPE_RENAME_NUMBER_COMMAND;
-        std::cout << "\tWipes the file's name and uses the input name and numbers the files";
+        std::cout << "\tWipes the file's name, uses the input name, and numbers the files";
         std::cout << " starting at 1" << std::endl << std::endl;
 
         // Add a name and a file.
